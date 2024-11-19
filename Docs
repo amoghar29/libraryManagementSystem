@@ -1,0 +1,91 @@
+Library Management System Documentation
+Overview
+The Library Management System is a Java Swing application designed to streamline library operations, including user registration, login, book borrowing, returning books, and managing user profiles. This document provides an overview of the application's features, components, and usage instructions.
+
+Features
+User Registration:
+Allows new users to create an account by providing their details.
+User Login:
+Enables registered users to log in to the system.
+Book Catalog:
+Displays a list of available books with search functionality.
+Book Borrowing:
+Allows users to borrow selected books.
+Book Return:
+Facilitates the return of borrowed books.
+User Profile Management:
+Enables users to view and update their profile information.
+
+Technologies Used
+Java: Programming language used to develop the application.
+Swing: GUI toolkit for building the user interface.
+JOptionPane: For displaying dialog boxes for user notifications and input.
+
+Application Structure
+The application is structured into multiple Java classes, each representing a specific feature or screen.
+1. UserLoginScreen.java
+Handles user login functionality.
+Validates user credentials and navigates to the Book Catalog screen upon successful login.
+2. UserRegistrationScreen.java
+Manages user registration.
+Validates input fields and saves user data upon successful registration.
+3. BookCatalogScreen.java
+Displays a list of books in a table format.
+Allows users to search for books and borrow selected books.
+4. BookBorrowingScreen.java
+Facilitates the borrowing of books.
+Validates borrower information and confirms the borrowing action.
+5. BookReturnScreen.java
+Manages the return of borrowed books.
+Updates the system upon successful return.
+6. UserProfileManagementScreen.java
+Allows users to view and update their profile information.
+Validates input fields and confirms updates.
+
+User Interface Components
+The Library Management System interface is built using the following components:
+JFrame: Main window for each screen.
+JPanel: Container for organizing components.
+JLabel: Text labels for input fields.
+JTextField: Input field for text entry.
+JPasswordField: Specialized input field for passwords.
+JButton: Clickable buttons for user actions.
+JComboBox: Dropdown list for selecting options.
+JTable: Displays tabular data such as the book catalog.
+JScrollPane: Provides a scrollable view for components like tables.
+
+Usage Instructions
+1. Running the Application
+Compile all Java files.
+Run the UserLoginScreen class to start the application.
+2. User Registration
+Click the Register button on the login screen.
+Fill in the required fields and submit the form.
+3. User Login
+Enter your email and password on the login screen.
+Click the Login button to access the book catalog.
+4. Book Catalog
+Use the search bar to find specific books.
+Select a book from the list and click Borrow Selected Book to borrow it.
+5. Book Borrowing
+Enter your name and select a book to borrow.
+Click Submit to confirm the borrowing action.
+6. Book Return
+Select a book from the dropdown list and click Return Book to return it.
+7. User Profile Management
+Access the profile management screen to update your information.
+Fill in the fields and click Update Profile to save changes.
+
+Enhancements and Future Work
+Database Integration
+Implement a database for persistent storage of user and book information.
+Advanced Search and Filtering
+Enhance the search functionality to allow filtering by multiple criteria.
+User Feedback Mechanism
+Implement a system for users to provide feedback on books and the application.
+Improved UI Design
+Use modern UI libraries to improve the visual appeal and user experience.
+
+Conclusion
+The Library Management System provides a user-friendly interface to streamline library operations. With features like user registration, login, book borrowing, and profile management, the system aims to simplify the library experience. Future enhancements will focus on expanding functionality and further improving the user experience.
+
